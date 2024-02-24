@@ -15,7 +15,7 @@
 
 body {
     background-color: var(--color-primary);
-
+    
 }
 
 .wrapper {
@@ -23,7 +23,7 @@ body {
     /* flex-flow: wrap; */
     width: 95%;
     margin: 0 auto;
-
+    
 }
 
 /* HEADER */
@@ -34,6 +34,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .header .logo {
@@ -133,7 +134,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    position: relative;
 }
 
 .main .slider {
@@ -141,7 +142,7 @@ body {
     height: 100%;
     /* background-color: blue; */
     display: flex;
-    align-items: end;
+    /* align-items: end; */
 }
 
 .main .slider .slider-content {
@@ -176,6 +177,7 @@ body {
     height: 20vh;
     width: 100%;
     display: flex;
+    position: relative;
 }
 
 .main .resume-description .fashion-content {
@@ -281,4 +283,11 @@ body {
     width: 100%;
     height: 40dvh;
     background-color: azure;
+}
+
+.footer{
+    width: 50%;
+    height: 5vh;
+    background-color: red;
+    position: relative;
 }
