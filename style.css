@@ -15,7 +15,7 @@
 
 body {
     background-color: var(--color-primary);
-    
+    /* background-color:hsl(5, 12%, 35%); */
 }
 
 .wrapper {
@@ -23,7 +23,7 @@ body {
     /* flex-flow: wrap; */
     width: 95%;
     margin: 0 auto;
-    
+
 }
 
 /* HEADER */
@@ -34,7 +34,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    position: relative;
 }
 
 .header .logo {
@@ -142,7 +141,7 @@ body {
     height: 100%;
     /* background-color: blue; */
     display: flex;
-    /* align-items: end; */
+    align-items: end;
 }
 
 .main .slider .slider-content {
@@ -285,9 +284,8 @@ body {
     background-color: azure;
 }
 
-.footer{
+footer{
     width: 50%;
-    height: 5vh;
+    height: 15vh;
     background-color: red;
-    position: relative;
 }
