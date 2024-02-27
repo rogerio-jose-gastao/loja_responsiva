@@ -335,10 +335,26 @@ body {
     color: var(--color-paragraph);
 }
 
+.main .product-type-des{
+    height: 10vh;
+    width: 100%;
+    background-color: var(--color-terceary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-paragraph);
+    font-family: "Poiret One", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
 .main .product-types {
     height: 50vh;
     width: 100%;
     color: var(--color-paragraph);
+    background: var(--color-terceary);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -348,32 +364,76 @@ body {
 .main .product-types .product-type {
     height: 45vh;
     width: 25%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     margin: 0 25px;
 }
 
 .main .product-types .product-type .type-img {
-    height: 65%;
+    height: 80%;
     width: 100%;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.main .product-types .product-type .type-img1 {
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    background: url(assets/img/prod-types/prod-type1.jpg);
+}
+.main .product-types .product-type .type-img2 {
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url(assets/img/prod-types/prod-type2.jpg);
+}
+.main .product-types .product-type .type-img3 {
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:-20px -12px 0 0;
+    background: url(assets/img/prod-types/prod-type3.jpg);
+}
+.main .product-types .product-type .type-img4 {
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px 0 0 0;
+    background: url(assets/img/prod-types/prod-type4.jpg);
 }
 
 .main .product-types .product-type .type-title {
-    height: 20%;
+    height: 10%;
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    color: var(--color-secundary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poiret One", sans-serif;
+    font-size: 25px;
 }
 
 .main .product-types .product-type .type-des {
-    height: 15%;
+    height: 10%;
     width: 100%;
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main .desponibilidade-sobre {
     width: 100%;
     height: 50vh;
-    background: radial-gradient(var(--color-terceary), transparent);
     display: flex;
     position: relative;
 }
