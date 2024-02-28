@@ -579,13 +579,13 @@ body {
     justify-content: center;
 }
 .main .footer .icone{
-    font-size: 4.5vh;
+    font-size:3vh;
     color: var(--color-secundary);
     margin-top: 3px;
 }
 .main .footer a{
-    width: 20px;
-    height: 20px;
+    width:3vh;
+    height:3vh;
     text-decoration: none;
     display: flex;
     align-items: center;
