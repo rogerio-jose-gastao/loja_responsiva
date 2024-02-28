@@ -36,24 +36,29 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* justify-content: center;  */
 }
 
 .header .logo {
+    /* background-color: wheat; */
     color: var(--color-secundary);
     width: 100%;
-    text-align: center;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 10vh;
-    height: 10vh;
-    margin-bottom: 25px;
+    /* line-height: 20vh; */
+    margin-bottom: 0px;
+    
 }
 
 .header .logo a {
-    text-decoration: none;
-    color: var(--color-secundary);
-    font-size: 4.5rem;
+    height: 20vh;
+    width: 20vh;
+    background: url(assets/img/logo/logo-carinho.svg);
+    background-repeat: no-repeat;
+    background: cover;
+    margin-top: 40px;
 }
 
 .header .menu-carrinho {
@@ -68,8 +73,6 @@ body {
     width: 90%;
     display: flex;
     align-items: center;
-
-
 }
 
 .header .menu-carrinho .menu ul {
@@ -89,7 +92,7 @@ body {
 
 .header .menu-carrinho .menu ul li a {
     color: var(--color-paragraph);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
     font-weight: 500;
     position: relative;
@@ -123,7 +126,7 @@ body {
 
 .header .menu-carrinho .carrinho a i {
     color: var(--color-paragraph);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* MAIN */
@@ -155,12 +158,12 @@ body {
 
 .main .slider .slider-content .h-content {
     color: var(--color-paragraph);
-    font-size: 1.5rem;
+    font-size: 1rem;
     overflow: hidden;
 }
 
 .main .slider .slider-content .slider-button {
-    padding: 20px 25px;
+    padding: 15px 20px;
     background-color: var(--color-secundary);
     border: none;
     border-radius: 2px;
@@ -175,20 +178,19 @@ body {
 }
 
 .main .resume-description {
-    height: 30vh;
+    height: 25vh;
     width: 100%;
     display: flex;
     position: relative;
-
 }
 
 .main .resume-description .fashion-content {
-    height: 30vh;
+    height: 25vh;
     width: 30%;
     /* background-color: brown; */
     font-family: "Poiret One", sans-serif;
     color: var(--color-paragraph);
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,28 +200,25 @@ body {
 }
 
 .main .resume-description .descrition-content {
-    height: 30vh;
+    height: 25vh;
     width: 70%;
     /* background: aqua; */
     color: var(--color-paragraph);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 50px;
     text-align: justify;
 }
 
 .product-menu {
     width: 100%;
-    height: 100vh;
-    /* background-color: darkgoldenrod; */
+    height: 105vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* 4 colunas por linha */
     grid-gap: 10px;
-    padding-top: 25px;
-
+    padding-top: 15px;
 
 }
 
@@ -229,7 +228,7 @@ body {
     /* border: 1px solid #ccc; */
     border-radius: 15px;
     margin: 15px;
-    height: 400px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -315,7 +314,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: "Poiret One", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     color: var(--color-secundary);
 }
@@ -331,7 +330,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 15px;
     color: var(--color-paragraph);
 }
 
@@ -344,10 +343,10 @@ body {
     justify-content: center;
     color: var(--color-paragraph);
     font-family: "Poiret One", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-weight: 400;
-
+    padding: 20px 0;
 }
 
 .main .product-types {
@@ -364,14 +363,12 @@ body {
 .main .product-types .product-type {
     height: 45vh;
     width: 25%;
-    /* background-color: blueviolet; */
     margin: 0 25px;
 }
 
 .main .product-types .product-type .type-img {
     height: 80%;
     width: 100%;
-    /* background-color: blanchedalmond; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -419,7 +416,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: "Poiret One", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .main .product-types .product-type .type-des {
@@ -433,7 +430,7 @@ body {
 
 .main .desponibilidade-sobre {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     position: relative;
 }
@@ -451,19 +448,146 @@ body {
 .main .desponibilidade-sobre .desponibilidade {
     width: 50%;
     height: 100%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
     /* background-color: darkorange; */
+    color: var(--color-paragraph);
+    margin-top: 50px;
+}
+
+.main .desponibilidade-sobre .desponibilidade .title-despon{
+    color: var(--color-paragraph);
+    font-size: 25px;
+    font-weight: 400;
+    margin: 40px;
+    display: flex;
+    align-self: center;
+    position: relative;
+    justify-content: start;
+    line-height: 20px;
+    
+}
+
+.main .desponibilidade-sobre .desponibilidade .title-despon:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    background-color: var(--color-secundary);
+    bottom: -5px;
+    left: 0;
+    transition: 0.3s;
+}
+
+.main .desponibilidade-sobre .desponibilidade .contact-despon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+
+}
+.main .desponibilidade-sobre .desponibilidade .contact-tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.main .desponibilidade-sobre .desponibilidade .contact-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
 }
 
 .main .desponibilidade-sobre .map-location {
     width: 50%;
     height: 100%;
+    overflow: hidden;
     /* background-color:beige; */
+}
+.main .desponibilidade-sobre .map-location iframe{
+    height: 80%;
+    width: 90%;
+    margin: 40px 30px;
 }
 
 .main .footer{
     width: 100%;
-    height: 40dvh;
-    background-color: azure;
+    height: 10dvh;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
+.main .footer .social-insta{
+    width: 5vh;
+    height: 5vh;
+    /* background-color: var(--color-secundary); */
+    margin: 0 20px;
+    border: 1px solid var(--color-secundary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .footer .social-face{
+    width: 5vh;
+    height: 5vh;
+    /* background-color: var(--color-secundary); */
+    margin: 0 20px;
+    border: 1px solid var(--color-secundary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .footer .social-youtube{
+    width: 5vh;
+    height: 5vh;
+    /* background-color: var(--color-secundary); */
+    margin: 0 20px;
+    border: 1px solid var(--color-secundary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .footer .social-threads{
+    width: 5vh;
+    height: 5vh;
+    /* background-color: var(--color-secundary); */
+    margin: 0 20px;
+    border: 1px solid var(--color-secundary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .footer .social-email{
+    width: 5vh;
+    height: 5vh;
+    /* background-color: var(--color-secundary); */
+    margin: 0 20px;
+    border: 1px solid var(--color-secundary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .footer .icone{
+    font-size: 4.5vh;
+    color: var(--color-secundary);
+    margin-top: 3px;
+}
+.main .footer a{
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
