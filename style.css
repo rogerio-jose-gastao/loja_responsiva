@@ -447,13 +447,12 @@ body {
 
 .main .desponibilidade-sobre .desponibilidade {
     width: 50%;
-    height: 100%;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     /* justify-content: center; */
-    /* background-color: darkorange; */
     color: var(--color-paragraph);
     margin-top: 50px;
 }
@@ -584,8 +583,8 @@ body {
     margin-top: 3px;
 }
 .main .footer a{
-    width:3vh;
-    height:3vh;
+    width:5vh;
+    height:5vh;
     text-decoration: none;
     display: flex;
     align-items: center;

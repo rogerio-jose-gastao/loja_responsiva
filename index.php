@@ -153,7 +153,7 @@
                         <div class="contact-tel">+244927966690</div>
 
                         <div
-                            class="contact-email">geral@carinhodoceangola.co.ao</div>
+                            class="contact-email">geral@carinhodoceangola.com.ao</div>
 
                     </div>
                     <div class="map-location"><iframe
@@ -164,11 +164,11 @@
                 </div>
 
                 <div class="footer">
-                    <div class="social-youtube"><a href="https://www.youtube.com/@carinho_doce_angola"><i
+                    <div class="social-youtube"><a href="#"><i
                                 class="icone fab fa-youtube"></i></a></div>
-                    <div class="social-insta"><a href="https://www.instagram.com/carinho_doce_angola/"><i
+                    <div class="social-insta"><a href="#"><i
                                 class="icone fab fa-instagram"></i></a></div>
-                    <div class="social-face"><a href="https://www.facebook.com/profile.php?id=100063689253170"><i
+                    <div class="social-face"><a href="#"><i
                                 class="icone fab fa-facebook-f"></i></a></div>
                     <div class="social-face"><a
                             href="https://www.threads.net/@carinho_doce_angola"><i
